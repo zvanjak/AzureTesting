@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAzureWebApp", "SimpleAzureWebApp\SimpleAzureWebApp.csproj", "{72424222-195A-4D24-B8DB-022E199889F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{7A4D99A0-9167-4FE7-857C-B82EE45852B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{20F5D9FD-F046-41BF-85F9-2B89AF610B24}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{2420B23D-0402-4ABE-B091-B6BB5ADABF82}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\SimpleAzureWebApp.json = PublishScripts\Templates\SimpleAzureWebApp.json
+		PublishScripts\Templates\SimpleAzureWebApp.param.dev.json = PublishScripts\Templates\SimpleAzureWebApp.param.dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAzureWebAppWithDBAndAuthorization", "SimpleAzureWebAppWithDBAndAuthorization\SimpleAzureWebAppWithDBAndAuthorization.csproj", "{35C8B482-0928-446C-89FC-3D11284F3BE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72424222-195A-4D24-B8DB-022E199889F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72424222-195A-4D24-B8DB-022E199889F9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{72424222-195A-4D24-B8DB-022E199889F9}.Debug|x64.Build.0 = Debug|Any CPU
+		{72424222-195A-4D24-B8DB-022E199889F9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{72424222-195A-4D24-B8DB-022E199889F9}.Debug|x86.Build.0 = Debug|Any CPU
+		{72424222-195A-4D24-B8DB-022E199889F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72424222-195A-4D24-B8DB-022E199889F9}.Release|x64.ActiveCfg = Release|Any CPU
+		{72424222-195A-4D24-B8DB-022E199889F9}.Release|x64.Build.0 = Release|Any CPU
+		{72424222-195A-4D24-B8DB-022E199889F9}.Release|x86.ActiveCfg = Release|Any CPU
+		{72424222-195A-4D24-B8DB-022E199889F9}.Release|x86.Build.0 = Release|Any CPU
+		{35C8B482-0928-446C-89FC-3D11284F3BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C8B482-0928-446C-89FC-3D11284F3BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C8B482-0928-446C-89FC-3D11284F3BE7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{35C8B482-0928-446C-89FC-3D11284F3BE7}.Debug|x64.Build.0 = Debug|Any CPU
+		{35C8B482-0928-446C-89FC-3D11284F3BE7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{35C8B482-0928-446C-89FC-3D11284F3BE7}.Debug|x86.Build.0 = Debug|Any CPU
+		{35C8B482-0928-446C-89FC-3D11284F3BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C8B482-0928-446C-89FC-3D11284F3BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C8B482-0928-446C-89FC-3D11284F3BE7}.Release|x64.ActiveCfg = Release|Any CPU
+		{35C8B482-0928-446C-89FC-3D11284F3BE7}.Release|x64.Build.0 = Release|Any CPU
+		{35C8B482-0928-446C-89FC-3D11284F3BE7}.Release|x86.ActiveCfg = Release|Any CPU
+		{35C8B482-0928-446C-89FC-3D11284F3BE7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20F5D9FD-F046-41BF-85F9-2B89AF610B24} = {7A4D99A0-9167-4FE7-857C-B82EE45852B3}
+		{2420B23D-0402-4ABE-B091-B6BB5ADABF82} = {7A4D99A0-9167-4FE7-857C-B82EE45852B3}
+	EndGlobalSection
+EndGlobal
